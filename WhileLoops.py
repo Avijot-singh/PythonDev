@@ -19,7 +19,7 @@ else:
 
     # }while(condition)
 
-    # Do while loop 
+    # Do while loop runs on irrespective to if the condition is true or false
 
     while True:
         number = int(input("Enter a postive number: "))
@@ -27,3 +27,5 @@ else:
         if not number >=0:
     
           break
+
+        

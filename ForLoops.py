@@ -18,5 +18,11 @@ for k in range(5):
     # for k in range (1, 20000):
     #     print(k + 1)
 
-    for k in range(1,12,3):
+    for k in range(1,12,3): # start, stop, step
         print(k)
+
+for s in [3,5,7,8]:
+    print(s)
+
+for i in enumerate(s):
+    

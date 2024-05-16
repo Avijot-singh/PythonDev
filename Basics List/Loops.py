@@ -6,6 +6,8 @@ Example:
 colours = ["blue","red","orange",purple]
 for i in colours:
     print(i)
+
+    hello world
 """
 
 

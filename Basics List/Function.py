@@ -48,3 +48,10 @@ marks = [55,66,77,2,54]
 marks_sum = sum(marks)
 print("the total number of marks you go is", marks_sum)
 
+"""
+THEORY
+- A function is a block of code that performes a specific taks. 
+- We use the def keyword to define a function
+- To bring the function into action we need to call the fucntion. The same function can be called as many times as we want
+- We can pass values to a function. THese values passed to functions are called arguments or parameters. 
+"""

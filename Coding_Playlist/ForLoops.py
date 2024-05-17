@@ -23,6 +23,3 @@ for k in range(5):
 
 for s in [3,5,7,8]:
     print(s)
-
-for i in enumerate(s):
-    

@@ -40,3 +40,5 @@ while not (0 <= a <= 100):
      a = int(input("Please enter number between 0 to 100:"))
 print("valid number", a)
 
+
+

@@ -1,6 +1,6 @@
 # For Loop
 """
-A for loop is used to iuterate over a sequence( such as a list, tuple, or a string )
+A for loop is used to iterate over a sequence( such as a list, tuple, or a string )
 - Use for loop when you know exactly how many times you want to exexute the loop 
 Example:
 colours = ["blue","red","orange",purple]

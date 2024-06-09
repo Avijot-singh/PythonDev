@@ -34,3 +34,21 @@ try:
     print(k)
 except Exception: # Exception is global so it knows the type of error, can also replace "Exception" with "valueError": as int inputs have that error type
     print("Please only enter number: ")
+
+
+# Another Example 
+while(True):
+    user = input("please enter a number: ")
+    if user.isdigit(): # Checking if the input is integer
+        user = int(user) # converting the variable input to integer
+        break
+    else:
+        print(user)
+
+while True:
+    try:
+        number = int(input('Enter a number'))
+        break
+    except:
+        print("please enter a number and try again ")
+

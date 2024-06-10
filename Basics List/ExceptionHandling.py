@@ -1,3 +1,4 @@
+import random
 # Compile time
 '''
 Syntactical Errors
@@ -49,6 +50,22 @@ while True:
     try:
         number = int(input('Enter a number'))
         break
-    except:
+    except ValueError:
         print("please enter a number and try again ")
 
+# Example using Continue
+
+while(True):
+        random_rand = random.randint(0, a)
+        a = input('Please type a number: ')
+        if(a.isdigit()):
+            a = int(a)
+        else:
+            print("please type a number next time: ")
+            continue
+
+        if(a == random_rand):
+            print("U Got it ")
+            break
+        else:
+            print("Try again")

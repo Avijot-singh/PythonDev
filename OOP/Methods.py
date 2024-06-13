@@ -19,3 +19,4 @@ s1 = Student('Avijot Singh', 21, 100)
 
 print(s1.Welcome())
 print(s1.get_marks())
+

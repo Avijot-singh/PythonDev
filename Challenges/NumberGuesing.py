@@ -1,12 +1,29 @@
 import random
-#NUMBER GUESSING
-r = random.randrange(1, 10) # 10 wont be generated as its n-1 
 
-print('Welcome to the game')
+print("Welcome to Number Guessing Game")
+print('------------------------------------')
+guesses = 0
+while(True):
+    guesses +=1
+    a = input('Please enter a number: ')
+    if(a.isdigit()):
+        a = int(a)
+    else:
+        print('Please type a number next time')
+        continue
 
-top_range = input("type a number: ")
-if top_range.isdigit():
-    top_range = int(top_range)
-print(top_range)
-ra = random.randint(1,10) # 10 will be included in randint
-print(ra)
+    rand = random.randint(0,a)
+
+    if(a == rand):
+        print('Correct !!')
+        print(f"System {rand}, You {a}")
+        print("number of guesses", + guesses)
+        break
+    else:
+        print(f"System {rand}, You {a}")
+        if(a > rand):
+            print("You were above the number")
+        else:
+            print("You were below the number")
+        
+       

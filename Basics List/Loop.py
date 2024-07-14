@@ -1,4 +1,4 @@
-# Important while loop 
+ # Important while loop 
 # Find orange in the list 
 fruits = ['Apple','Mango', 'Bannana', 'Kiwi', 'Aloo','Orange']
 
